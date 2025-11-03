@@ -1,21 +1,19 @@
 <template>
     <div class="wrapper">
 		<div class="header-wrapper">
-            <TopRocker></TopRocker>
-            <MenuRocker></MenuRocker>
+            <TopTrangChu></TopTrangChu>
 		</div>
 		<div class="page-wrapper">
 			<div class="page-content">
                 <router-view> </router-view>
             </div>
 		</div>
-        <BotRocker></BotRocker>
+        <BotTrangChu></BotTrangChu>
 	</div>
 </template>
 <script>
-import TopRocker from "../components/TopRocker.vue";
-import BotRocker from "../components/BotRocker.vue";
-import MenuRocker from "../components/MenuRocker.vue";
+import TopTrangChu from "../components/TopTrangChu.vue";
+import BotTrangChu from "../components/BotTrangChu.vue";
 import "../../assets/js/bootstrap.bundle.min.js";
 import "../../assets/js/jquery.min.js";
 import "../../assets/plugins/simplebar/js/simplebar.min.js";
@@ -27,7 +25,7 @@ import "../../assets/js/pace.min.js";
 export default {
     name        :   "app",
     components  :   {
-       TopRocker, BotRocker, MenuRocker
+       TopTrangChu, BotTrangChu
     }
 }
 </script>

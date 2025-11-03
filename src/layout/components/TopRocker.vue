@@ -4,7 +4,7 @@
 		<nav class="navbar navbar-expand">
 			<div class="topbar-logo-header">
 				<div class="">
-					<img src="../../assets/images/logo-icon.png" class="logo-icon" alt="logo icon">
+					<img src="//src/assets/images/logo-icon.png" class="logo-icon" alt="logo icon">
 				</div>
 				<div class="">
 					<h4 class="logo-text">Rocker</h4>
@@ -210,7 +210,7 @@
 								<a class="dropdown-item" href="javascript:;">
 									<div class="d-flex align-items-center">
 										<div class="user-online">
-											<img src="assets/images/avatars/avatar-1.png" class="msg-avatar"
+											<img src="//src/assets/images/avatars/avatar-1.png" class="msg-avatar"
 												alt="user avatar">
 										</div>
 										<div class="flex-grow-1">
@@ -223,7 +223,7 @@
 								<a class="dropdown-item" href="javascript:;">
 									<div class="d-flex align-items-center">
 										<div class="user-online">
-											<img src="assets/images/avatars/avatar-2.png" class="msg-avatar"
+											<img src="//src/assets/images/avatars/avatar-2.png" class="msg-avatar"
 												alt="user avatar">
 										</div>
 										<div class="flex-grow-1">
@@ -236,7 +236,7 @@
 								<a class="dropdown-item" href="javascript:;">
 									<div class="d-flex align-items-center">
 										<div class="user-online">
-											<img src="assets/images/avatars/avatar-3.png" class="msg-avatar"
+											<img src="//src/assets/images/avatars/avatar-3.png" class="msg-avatar"
 												alt="user avatar">
 										</div>
 										<div class="flex-grow-1">
@@ -249,7 +249,7 @@
 								<a class="dropdown-item" href="javascript:;">
 									<div class="d-flex align-items-center">
 										<div class="user-online">
-											<img src="assets/images/avatars/avatar-4.png" class="msg-avatar"
+											<img src="//src/assets/images/avatars/avatar-4.png" class="msg-avatar"
 												alt="user avatar">
 										</div>
 										<div class="flex-grow-1">
@@ -262,7 +262,7 @@
 								<a class="dropdown-item" href="javascript:;">
 									<div class="d-flex align-items-center">
 										<div class="user-online">
-											<img src="assets/images/avatars/avatar-5.png" class="msg-avatar"
+											<img src="//src/assets/images/avatars/avatar-5.png" class="msg-avatar"
 												alt="user avatar">
 										</div>
 										<div class="flex-grow-1">
@@ -275,7 +275,7 @@
 								<a class="dropdown-item" href="javascript:;">
 									<div class="d-flex align-items-center">
 										<div class="user-online">
-											<img src="assets/images/avatars/avatar-6.png" class="msg-avatar"
+											<img src="//src/assets/images/avatars/avatar-6.png" class="msg-avatar"
 												alt="user avatar">
 										</div>
 										<div class="flex-grow-1">
@@ -288,7 +288,7 @@
 								<a class="dropdown-item" href="javascript:;">
 									<div class="d-flex align-items-center">
 										<div class="user-online">
-											<img src="assets/images/avatars/avatar-7.png" class="msg-avatar"
+											<img src="//src/assets/images/avatars/avatar-7.png" class="msg-avatar"
 												alt="user avatar">
 										</div>
 										<div class="flex-grow-1">
@@ -301,7 +301,7 @@
 								<a class="dropdown-item" href="javascript:;">
 									<div class="d-flex align-items-center">
 										<div class="user-online">
-											<img src="assets/images/avatars/avatar-8.png" class="msg-avatar"
+											<img src="//src/assets/images/avatars/avatar-8.png" class="msg-avatar"
 												alt="user avatar">
 										</div>
 										<div class="flex-grow-1">
@@ -314,7 +314,7 @@
 								<a class="dropdown-item" href="javascript:;">
 									<div class="d-flex align-items-center">
 										<div class="user-online">
-											<img src="assets/images/avatars/avatar-9.png" class="msg-avatar"
+											<img src="//src/assets/images/avatars/avatar-9.png" class="msg-avatar"
 												alt="user avatar">
 										</div>
 										<div class="flex-grow-1">
@@ -327,7 +327,7 @@
 								<a class="dropdown-item" href="javascript:;">
 									<div class="d-flex align-items-center">
 										<div class="user-online">
-											<img src="assets/images/avatars/avatar-10.png" class="msg-avatar"
+											<img src="//src/assets/images/avatars/avatar-10.png" class="msg-avatar"
 												alt="user avatar">
 										</div>
 										<div class="flex-grow-1">
@@ -340,7 +340,7 @@
 								<a class="dropdown-item" href="javascript:;">
 									<div class="d-flex align-items-center">
 										<div class="user-online">
-											<img src="assets/images/avatars/avatar-11.png" class="msg-avatar"
+											<img src="//src/assets/images/avatars/avatar-11.png" class="msg-avatar"
 												alt="user avatar">
 										</div>
 										<div class="flex-grow-1">
@@ -361,7 +361,7 @@
 			<div class="user-box dropdown">
 				<a class="d-flex align-items-center nav-link dropdown-toggle dropdown-toggle-nocaret" href="#"
 					role="button" data-bs-toggle="dropdown" aria-expanded="false">
-					<img src="https://dzfullstack.com/assets/images/logo-img.png" class="user-img" alt="user avatar">
+					<img src="//src/https://dzfullstack.com/assets/images/logo-img.png" class="user-img" alt="user avatar">
 					<div class="user-info ps-3">
 						<p class="user-name mb-0">DZFullStack</p>
 						<p class="designattion mb-0">Admin</p>
