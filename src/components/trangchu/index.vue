@@ -5,8 +5,7 @@
 
         <div class="lg:col-span-5 space-y-8 text-left lg:text-left">
           <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-[#432323] leading-tight">
-            Đặt lịch dễ<br />
-            <span class="text-[#432323]">Chăm sóc mê!</span>
+            Đặt lịch dễ Chăm sóc mê!
           </h1>
 
           <p class="text-base sm:text-lg text-[#393e46] font-medium max-w-md mx-auto lg:mx-0">

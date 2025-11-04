@@ -1,22 +1,21 @@
 <template>
-    <!-- Layout chỉ có Header, không có Footer -->
     <div class="wrapper">
-        <!-- Header -->
         <div class="header-wrapper">
             <TopTrangChu></TopTrangChu>
         </div>
         
-        <!-- Body Contain - Không có Footer -->
         <div class="page-wrapper">
             <div class="page-content">
                 <router-view></router-view>
             </div>
         </div>
+          <BotTrangChu></BotTrangChu>
     </div>
 </template>
 
 <script>
 import TopTrangChu from "../components/TopTrangChu.vue";
+import BotTrangChu from "../components/BotTrangChu.vue";
 import "../../assets/js/bootstrap.bundle.min.js";
 import "../../assets/js/jquery.min.js";
 import "../../assets/plugins/simplebar/js/simplebar.min.js";
@@ -27,9 +26,8 @@ import "../../assets/js/app.js";
 import "../../assets/js/pace.min.js";
 
 export default {
-    name: "headeronly-layout",  // Tên component (optional, cho debug)
     components: {
-        TopTrangChu
+        TopTrangChu, BotTrangChu
     }
 }
 </script>

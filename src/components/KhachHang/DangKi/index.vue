@@ -231,10 +231,10 @@
 
 <script setup>
 import { ref } from 'vue'
-import Tick from '../../assets/svg/tick.svg'
-import User from '../../assets/svg/User.svg'
-import EmailAddress from '../../assets/svg/emailaddress.svg'
-import Password from '../../assets/svg/password.svg'
+import Tick from '../../../assets/svg/tick.svg'
+import User from '../../../assets/svg/User.svg'
+import EmailAddress from '../../../assets/svg/emailaddress.svg'
+import Password from '../../../assets/svg/password.svg'
 const formData = ref({
   fullName: '',
   email: '',
