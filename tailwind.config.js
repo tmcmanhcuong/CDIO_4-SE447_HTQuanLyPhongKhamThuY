@@ -10,7 +10,7 @@ export default {
         nunito: ['"Nunito"', 'sans-serif'],
         nunitoSans: ['"Nunito Sans"', 'sans-serif'],
         montserrat: ['"Montserrat Alternates"', 'sans-serif'],
-        dmSans: ['"DM Sans"', 'sans-serif'],
+        sans: ['"Nunito Sans"', 'sans-serif'],
       },
       colors: {
         primary: {
@@ -22,8 +22,8 @@ export default {
           medium: '#393e46',
           light: '#222831',
         }
-      },
     },
   },
   plugins: [],
+}
 }

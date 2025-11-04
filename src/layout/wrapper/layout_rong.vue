@@ -1,12 +1,16 @@
 <template>
+    <!-- đây là nơi nối Header + Component + Footer lại với nhau -->
+    <!-- Header -->
     <div class="wrapper">
 		<div class="header-wrapper">
             <TopTrangChu></TopTrangChu>
 		</div>
+        <!-- Body Contain -->
 		<div class="page-wrapper">
 			<div class="page-content">
                 <router-view> </router-view>
             </div>
+        <!-- Footer -->
 		</div>
         <BotTrangChu></BotTrangChu>
 	</div>
