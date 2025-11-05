@@ -108,7 +108,9 @@
 
         <p class="text-center text-sm">
           <span class="text-gray-600">Chưa có tài khoản?</span>
-          <a href="#" class="text-blue-600 font-medium hover:underline ml-1">Đăng Ký</a>
+          <router-link to="/khach-hang/dang-ky">
+            <a href="/khach-hang/dang-ky" class="text-blue-600 font-medium hover:underline ml-1">Đăng Ký</a>
+          </router-link>
         </p>
       </div>
     </div>

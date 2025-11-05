@@ -9,13 +9,13 @@
                 <router-view></router-view>
             </div>
         </div>
-          <BotTrangChu></BotTrangChu>
+          <!-- <BotTrangChu></BotTrangChu> -->
     </div>
 </template>
 
 <script>
 import TopTrangChu from "../components/TopTrangChu.vue";
-import BotTrangChu from "../components/BotTrangChu.vue";
+// import BotTrangChu from "../components/BotTrangChu.vue";
 import "../../assets/js/bootstrap.bundle.min.js";
 import "../../assets/js/jquery.min.js";
 import "../../assets/plugins/simplebar/js/simplebar.min.js";
@@ -27,7 +27,7 @@ import "../../assets/js/pace.min.js";
 
 export default {
     components: {
-        TopTrangChu, BotTrangChu
+        TopTrangChu
     }
 }
 </script>

@@ -218,7 +218,7 @@
           <div class="mt-6 text-center">
             <p class="text-sm text-gray-600 font-nunitoSans">
               Đã có tài khoản?
-              <router-link to="/dang-nhap" class="text-blue-600 font-medium hover:underline ml-1">
+              <router-link to="/khach-hang/dang-nhap" class="text-blue-600 font-medium hover:underline ml-1">
                 Đăng Nhập
               </router-link>
             </p>

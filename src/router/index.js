@@ -18,6 +18,11 @@ const routes = [
         component: ()=>import('../components/KhachHang/DangNhap/index.vue'),
         meta: { layout: 'dangki_dangnhap' } 
     },
+    {
+        path: '/khach-hang/trang-cua-toi',
+        component: ()=>import('../components/KhachHang/QuanLyTaiKhoan/index.vue'),
+        meta: { layout: 'trangchu' } 
+    },
     //********************** Admin ************************* */
      {
         path: '/admin/dang-nhap',
