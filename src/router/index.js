@@ -23,6 +23,16 @@ const routes = [
         component: ()=>import('../components/KhachHang/QuanLyTaiKhoan/index.vue'),
         meta: { layout: 'trangchu' } 
     },
+    {
+        path: '/khach-hang/quan-ly-thong-tin-ca-nhan',
+        component: ()=>import('../components/KhachHang/QuanLyThongTinCaNhan/index.vue'),
+        meta: { layout: 'trangchu' } 
+    },
+    {
+        path: '/khach-hang/tro-giup-lien-he',
+        component: ()=>import('../components/KhachHang/TroGiupLienHe/index.vue'),
+        meta: { layout: 'trangchu' } 
+    },
     //********************** Admin ************************* */
      {
         path: '/admin/dang-nhap',
