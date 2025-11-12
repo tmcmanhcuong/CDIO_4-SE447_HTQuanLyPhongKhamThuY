@@ -49,6 +49,9 @@ const routes = [
         component: ()=>import('../components/Admin/DangNhap/index.vue'),
         meta: { layout: 'dangki_dangnhap' } 
     },
+    //********************** Bác Sĩ ************************* */
+
+    //********************** Y Tá ************************* */
 ]
 
 const router = createRouter({
