@@ -33,6 +33,16 @@ const routes = [
         component: ()=>import('../components/KhachHang/TroGiupLienHe/index.vue'),
         meta: { layout: 'trangchu' } 
     },
+    {
+        path: '/khach-hang/thanh-toan',
+        component: ()=>import('../components/KhachHang/ThanhToan/index.vue'),
+        meta: { layout: 'trangchu' } 
+    },
+    {
+        path: '/khach-hang/lich-hen',
+        component: ()=>import('../components/KhachHang/LichHen/index.vue'),
+        meta: { layout: 'trangchu' } 
+    },
     //********************** Admin ************************* */
      {
         path: '/admin/dang-nhap',

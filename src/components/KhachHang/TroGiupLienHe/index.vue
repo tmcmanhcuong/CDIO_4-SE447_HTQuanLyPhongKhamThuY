@@ -1,7 +1,6 @@
 <template>
     <div class="min-h-screen py-8">
       <div class="container max-w-6xl mx-auto px-6 lg:px-12">
-        <!-- Breadcrumb -->
         <nav class="flex items-center gap-2 text-lg font-semibold mb-8">
           <img src="https://www.figma.com/api/mcp/asset/e92f9a22-878d-409f-8b54-3e641171da63" alt="Home" class="w-5 h-5" />
           <span class="text-gray-400">Trang chủ</span>
@@ -9,13 +8,11 @@
           <span class="underline text-black">Trợ giúp & Liên hệ</span>
         </nav>
   
-        <!-- Page Header -->
         <div class="mb-8">
           <h1 class="text-2xl font-bold mb-1">Trợ giúp & Liên hệ</h1>
           <p class="text-xl font-semibold text-gray-700">Câu hỏi thường gặp và thông tin liên hệ</p>
         </div>
   
-        <!-- Contact Cards -->
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
           <div class="bg-white/40 border border-teal-200 rounded-2xl p-6 flex gap-3">
             <div class="bg-teal-100 rounded-xl w-12 h-12 flex items-center justify-center flex-shrink-0">
@@ -51,9 +48,7 @@
           </div>
         </div>
   
-        <!-- Main Content: FAQ + Support Form -->
         <div class="grid grid-cols-1 lg:grid-cols-[592px_1fr] gap-6 mb-8">
-          <!-- FAQ Card -->
           <div class="bg-white border border-black/15 rounded-2xl p-10">
             <div class="mb-6">
               <h2 class="text-lg font-semibold mb-2">Câu hỏi thường gặp</h2>
@@ -73,7 +68,6 @@
             </div>
           </div>
   
-          <!-- Support Form Card -->
           <div class="bg-white border border-black/10 rounded-2xl p-6">
             <div class="mb-6">
               <h2 class="text-lg font-semibold mb-2">Gửi yêu cầu hỗ trợ</h2>
@@ -115,7 +109,6 @@
           </div>
         </div>
   
-        <!-- Clinic Info Card -->
         <div class="bg-white border border-black/10 rounded-2xl p-6">
           <div class="mb-6">
             <h2 class="text-lg font-semibold mb-2">Thông tin phòng khám</h2>
@@ -123,7 +116,6 @@
           </div>
   
           <div class="grid grid-cols-1 lg:grid-cols-[486px_1fr] gap-6">
-            <!-- Left: Image + Details -->
             <div class="space-y-5">
               <div class="rounded-2xl overflow-hidden h-64">
                 <img src="https://www.figma.com/api/mcp/asset/344bde17-8d2c-486e-8a05-a97a2381a0eb" alt="Clinic" class="w-full h-full object-cover" />
@@ -148,7 +140,6 @@
               </div>
             </div>
   
-            <!-- Right: Map + Branches -->
             <div class="space-y-6">
               <div @click="openGoogleMaps" class="bg-zinc-100 border border-black/15 rounded-xl h-64 flex flex-col items-center justify-center gap-1 cursor-pointer hover:bg-zinc-200/50 transition">
                 <img src="https://www.figma.com/api/mcp/asset/d6bfcd78-5f5e-4161-82e1-f7c72cc5dc30" alt="Map" class="w-12 h-12" />

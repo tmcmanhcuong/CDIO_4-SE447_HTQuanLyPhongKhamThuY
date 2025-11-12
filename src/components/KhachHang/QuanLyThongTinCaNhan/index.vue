@@ -1,7 +1,6 @@
 <template>
     <div class="min-h-screen">
       <div class="container max-w-6xl mx-auto px-6 py-8 md:px-12 lg:px-20">
-        <!-- Breadcrumb -->
         <nav class="flex items-center gap-2 text-lg font-semibold mb-8">
           <img src="https://www.figma.com/api/mcp/asset/1d75c94f-d14c-428b-bb1d-c3790ef43737" alt="Home" class="w-5 h-5" />
           <span class="text-gray-400">Trang chủ</span>
@@ -9,7 +8,6 @@
           <span class="underline text-black">Thông tin cá nhân</span>
         </nav>
   
-        <!-- Personal Information Card -->
         <div class="bg-white border border-gray-100 rounded-2xl p-8 mb-6">
           <div class="mb-8">
             <h1 class="text-2xl font-bold text-black mb-1">Thông tin cá nhân</h1>
@@ -17,7 +15,6 @@
           </div>
   
           <div class="flex flex-col lg:flex-row gap-8">
-            <!-- Avatar Section -->
             <div class="flex flex-col items-center gap-4">
               <div class="w-32 h-32 bg-teal-200 rounded-full flex items-center justify-center text-2xl font-semibold text-[#2f5755]">
                 NV
@@ -28,7 +25,6 @@
               </button>
             </div>
   
-            <!-- Form Section -->
             <form class="flex-1 space-y-6">
               <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div>
@@ -64,7 +60,6 @@
           </div>
         </div>
   
-        <!-- Security Card -->
         <div class="bg-white border border-gray-100 rounded-2xl p-8 mb-6">
           <div class="mb-8">
             <h2 class="text-2xl font-bold text-black mb-1">Bảo mật tài khoản</h2>
@@ -72,7 +67,6 @@
           </div>
   
           <div class="space-y-6">
-            <!-- Password -->
             <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-6 p-4 border border-gray-200 rounded-xl">
               <div>
                 <h3 class="font-semibold text-lg">Mật khẩu</h3>
@@ -86,7 +80,6 @@
   
             <hr class="border-t border-black/10" />
   
-            <!-- Logout All -->
             <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-6 p-4 border border-gray-200 rounded-xl">
               <div>
                 <h3 class="font-semibold text-lg">Đăng xuất khỏi tất cả thiết bị</h3>
@@ -100,7 +93,6 @@
           </div>
         </div>
   
-        <!-- Account Information Card -->
         <div class="bg-teal-50 border border-teal-200 rounded-2xl p-8">
           <div class="space-y-4">
             <div class="flex justify-between">
@@ -161,5 +153,4 @@
   </script>
   
   <style scoped>
-  /* Nếu cần thêm custom color không có trong Tailwind */
   </style>
